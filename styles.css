@@ -69,23 +69,25 @@ p {
 
 /* main banner */
 .main-banner {
-    background-image: url("../8_HDC_HOST/Sommerlandschaft-Bilder-93.jpg");
+    background-image: url("bg_header.jpg");
     background-size: cover;
     background-position: center;
     padding: 10rem 0;
 }
+
 .main-banner h1,
 .main-banner p {
     color: #fff;
     text-align: center;
     font-weight: bold;
     text-shadow: #000 3px 2px 3px;
-    
+
 }
 
 .main-banner h1 {
     font-size: 54px;
 }
+
 .main-banner p {
     font-size: 32px;
 }
@@ -116,12 +118,14 @@ p {
 
 .fa-rocket {
     color: rgb(218, 13, 47);
-    
+
 }
+
 .fa-comments {
     color: rgb(248, 155, 14);
 
 }
+
 .fa-shield-alt {
     color: greenyellow;
 
@@ -156,11 +160,13 @@ p {
     width: 90%;
     margin: 50px auto 0;
 }
+
 .plan {
     flex: 1;
     max-width: 275px;
     margin: 0 20px;
 }
+
 .plan ul {
     padding: 0;
 }
@@ -181,7 +187,7 @@ p {
     color: #fff;
     text-align: center;
     line-height: 120px;
-    margin: 0 auto -50px; 
+    margin: 0 auto -50px;
     font-size: 18px;
     position: relative;
 }
@@ -192,7 +198,7 @@ p {
     font-weight: bold;
     color: #fff;
     background-color: #202b34;
-    padding: 50px 0 ;
+    padding: 50px 0;
 }
 
 .plan .plan-btn {
@@ -203,7 +209,7 @@ p {
     line-height: 75px;
     cursor: pointer;
 }
- 
+
 .plan-btn .recommended {
     background-color: #f45c57;
 }
@@ -221,6 +227,7 @@ p {
     margin-bottom: 15px;
 
 }
+
 .searchdomain-container p {
     color: #d5d5d5;
     font-size: 24px;
@@ -233,6 +240,7 @@ p {
     border-radius: 5px;
     margin: 0 auto;
 }
+
 .searchdomain-container input[type="text"] {
     width: 60%;
     padding: 20px;
@@ -253,7 +261,7 @@ p {
 .searchdomain-container input[type="submit"]:hover {
     opacity: 1;
 }
- 
+
 /* contact form */
 
 .contact-container {
@@ -289,6 +297,7 @@ p {
     width: 470px;
     height: 150px;
 }
+
 .contact-container input[type="submit"] {
     display: block;
     margin: 0 auto;
@@ -297,7 +306,7 @@ p {
     cursor: pointer;
 }
 
-footer{
+footer {
     text-align: center;
     font-weight: bold;
     margin: 20px 0 100px;
@@ -307,8 +316,8 @@ footer{
 /* responsividade */
 
 /* small laptops a partir de 110px */
- @media (max-width: 1100px) {
-    
+@media (max-width: 1100px) {
+
     .plans-container {
         width: 95%;
     }
@@ -316,11 +325,11 @@ footer{
     .plan {
         margin: 0 5px;
     }
- }
+}
 
- /* tablet 900px */
+/* tablet 900px */
 
- @media (max-width:900px){
+@media (max-width:900px) {
     .main-banner p {
         padding: 0 6rem;
     }
@@ -328,14 +337,14 @@ footer{
     .searchdomain-container {
         padding: 2rem 4rem;
     }
- }
+}
 
- /* celular 576px */
+/* celular 576px */
 
- @media (max-width: 576px) {
+@media (max-width: 576px) {
 
-    html, body {
-    }
+    html,
+    body {}
 
     .main-banner p {
         padding: 0 2rem;
@@ -367,7 +376,7 @@ footer{
         font-size: 28px;
     }
 
-    .searchdomain-container input[type="text"]{
+    .searchdomain-container input[type="text"] {
         width: 100%;
     }
 
@@ -380,14 +389,14 @@ footer{
         width: 100%;
         margin: 10px 0;
     }
- }
+}
 
- @media (max-width:320px){
+@media (max-width:320px) {
     .main-banner p {
-     font-size: 180%;
+        font-size: 180%;
 
     }
 
-    .searchdomain-container input[type="text"]{
+    .searchdomain-container input[type="text"] {
         width: 100%;
- }
+    }
